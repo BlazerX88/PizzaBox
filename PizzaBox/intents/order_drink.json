@@ -1,0 +1,92 @@
+{
+  "id": "4354bdbb-e6ca-4343-ad7d-d20fe5f19193",
+  "name": "order:drink",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f98606df-06e5-451d-b5f5-f008939e271f",
+          "required": false,
+          "dataType": "@flavour",
+          "name": "flavour",
+          "value": "$flavour",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "85c1e892-3c52-4725-a10e-2d2ed62025be",
+          "required": false,
+          "dataType": "@drink",
+          "name": "drink",
+          "value": "$drink",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "9193a14b-7f01-4535-a986-177bca0f5112",
+          "required": false,
+          "dataType": "@milk_type",
+          "name": "milk_type",
+          "value": "$milk_type",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "629ed22c-bc50-4dda-a206-a9dab84e0fa5",
+          "required": false,
+          "dataType": "@PizzaSize",
+          "name": "pizzasize",
+          "value": "$pizzasize",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "501d4b69-b989-4aec-9c05-168f9552a777",
+          "required": false,
+          "dataType": "@milk_type",
+          "name": "milk_type1",
+          "value": "$milk_type1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "I\u0027ve added your drink order"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
